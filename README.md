@@ -49,7 +49,11 @@ The main output of these scripts is the file `ColxNo_all_naive.tsv` (SNP calls u
 The following data files are provided in our repository:
 
 ```
-data/
+Data/
+├── BSAmapping
+│   ├── ColxNo_all_naive.tsv
+│   ├── QTLseqr_input.tsv
+│   └── QTLseqr_results.csv
 ├── ColxNo_F2germ.csv
 ├── ColxNo_F3germ.csv
 ├── cyp707a1_ga3oxMutantsGerm.csv
@@ -61,7 +65,11 @@ data/
 ├── MAGICParentsRawData.csv
 ├── MAGICs.csv
 ├── MAGICsRawData.csv
-├── readme.docx
+├── QTLmapping
+│   ├── germ_summaryPerLineForQTLMapping.tsv
+│   ├── magic_gen_object.rds
+│   ├── qtl_scan_all.csv
+│   └── qtl_scan_no_outlier.csv
 ├── SingleSiliquesGermRawData.csv
 ├── Soil_vs_plates.csv
 ├── soil_vs_platesRawData.csv
